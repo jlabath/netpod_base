@@ -1,0 +1,9 @@
+[package]
+name = "netpod_base"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bendy = "0.3"
+thiserror = "2.0"
+tokio = { version = "1", features = ["rt", "io-util", "net"] }
